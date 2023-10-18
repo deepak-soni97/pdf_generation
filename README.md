@@ -28,22 +28,26 @@ npm install
 
 # Copy and edit the env file:
 
-```
-cp .env.example .env
-```
+
+> cp .env.example .env
+
 # Usage
+
+>Set up your database connection in the src/config.js/db.js file.
+
+
+* Test pdfSevice 
 ```
-Set up your database connection in the src/config.js/db.js file.
+npm test
+```
+* Start the server
+```
+ npm start
+```
+* The application will run on
+```
+ http://localhost:3000
 ```
 
-```
-Test pdfSevice : npm test
-```
-```
-Start the server: npm start
-```
-```
-The application will run on http://localhost:3000.
-```
 
 
