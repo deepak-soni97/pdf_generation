@@ -3,7 +3,6 @@ const { MongoClient } = require('mongodb');
 
 // Define your MongoDB connection URL
 MONGODB_URL = process.env.MONGODB_URL;
-
 const uri = MONGODB_URL;
 const client = new MongoClient(uri);
 
