@@ -1,4 +1,6 @@
 # PDF Generator
+I have developed a Node.js application with MongoDB integration that can generate dynamic PDF reports based on data from 3 to 4 tables.
+The application is capable of generating dynamic PDF reports. 
 
 ## Development
 Before you can build this project, you must install and configure the following dependencies on your machine:
